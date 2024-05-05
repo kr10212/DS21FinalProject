@@ -5,7 +5,7 @@ use std::collections::{HashSet, VecDeque};
 use std::fs::File;
 use std::io::{Write};
 use std::collections::HashMap;
-
+ 
 // FUNCTION TO COUNT EDGES BASED ON DEGREE AND EDGE TYPES IN A GRAPH
 fn count_edges(graph: &AdjacencyList, degrees: &usize, company: &Company, edges: &Option<Vec<EdgeTypes>>) -> usize {
     let mut queue = VecDeque::new();                                                    // INITIALIZE QUEUE FOR BFS

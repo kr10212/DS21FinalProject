@@ -1,6 +1,6 @@
 // IMPORT MODULES FROM OTHER FILES IN THE PROJECT
 mod graph;
-mod distribution;
+mod distribution; 
 
 // IMPORT NECESSARY RUST STANDARD LIBRARY AND CUSTOM MODULE FUNCTIONALITIES
 use graph::{EdgeTypes, create_graph, write_graph};

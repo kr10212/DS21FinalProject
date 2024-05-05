@@ -90,7 +90,7 @@ pub fn create_graph(file_path: &str) -> AdjacencyList {
         if edge_type == EdgeTypes::None {
             continue;
         }
-
+ 
         let company_connection = CompanyConnection {
             id: parts[0].to_string(),
             tail: Company {

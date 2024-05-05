@@ -11,7 +11,7 @@ def read_numbers_from_file(path):
         for line in file:
             data.append(int(line.strip()))
     return data
-
+ 
 # ACCEPTS LIST OF NUMERICAL VALUES
 def print_statistics(distribution):
     distribution = np.array(distribution)
